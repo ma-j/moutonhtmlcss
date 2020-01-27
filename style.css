@@ -5,16 +5,13 @@
     position: absolute;
     z-index: -10;
 }
-nav{
+#quotes{
+    width: 120px;
     position: absolute;
     z-index: 20;
     margin-left: 15%;
     margin-top: 3%; 
 } 
-#quotes{
-    width: 120px;
-} 
-
 header img {
     width: 90%;
     height: auto;
@@ -22,4 +19,41 @@ header img {
     margin: auto;
     position: relative;
     z-index: 1;
+}
+#smile{
+    font-size: 900%;
+    color: white;
+    font-family: 'Lucida Sans', Arial, sans-serif ;
+    position: relative;
+    z-index: 20;
+    margin-left: 45%;
+}
+#cost{
+    font-size: 400%;
+    color: white;
+    font-family: 'Lucida Sans', Arial, sans-serif ;
+    position: relative;
+    z-index: 20;
+    margin-left: 45%;
+}
+#ronds{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    
+
+}
+#cercle{
+    background-color: black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+}
+#cercle2{
+    background-color: white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
 }
