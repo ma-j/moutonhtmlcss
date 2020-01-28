@@ -1,6 +1,5 @@
 /* Mise en page du slider */
 .degrade{
-    background-image:linear-gradient(white,grey);
     background-size: cover;
     position: absolute;
     z-index: -10;
@@ -222,7 +221,8 @@ header img {
     margin-top: 5%;
 }
 .cinq{
-    background-color: white;
+    background-color:silver;
+    padding-bottom: 2%;
 }
 #titre2{
     margin-left: 10%;
@@ -256,3 +256,61 @@ header img {
     padding-top: 12%;
     padding-right: 20%;
 }
+.six{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20%, 20%, 20%, 20%;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    margin-bottom: 3%;
+}
+.six h4{
+    font-size: smaller;
+}
+#brow{
+    margin-left: -14%;
+}
+.menu{
+    grid-column: 1/2;
+}
+.menu li{
+    list-style: none;
+    font-size: smaller;
+}
+.menu li a{
+    color: black;
+}
+#braow{
+    margin-left: -12%;
+}
+.menu1{
+    grid-column: 2/3;
+}
+.menu1 li{
+    list-style: none;
+    font-size: smaller;
+}
+.menu1 li a{
+    color: black;
+}
+.menu2{
+    grid-column: 3/4;
+}
+.menu2 p{
+    font-size: smaller;
+}
+.formulaire{
+    grid-column: 4/5;
+}
+#news{
+    font-size: smaller;
+    line-height: 2px;
+    padding-top: 2%;
+}
+#submit{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    font-size: smaller;
+}
+
