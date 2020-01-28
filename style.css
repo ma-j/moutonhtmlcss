@@ -12,6 +12,7 @@
     margin-left: 15%;
     margin-top: 3%; 
 } 
+
 header img {
     width: 90%;
     height: auto;
@@ -51,10 +52,8 @@ header img {
     width: 150px;
     position: absolute;
     z-index: 20;
-    margin-left: 40%;
+    margin-left: 50%;
     margin-top: -5%;
-    
-
 }
 #cercle{
     background-color: black;
@@ -69,4 +68,36 @@ header img {
     width: 10px;
     height: 10px;
     border: 1px solid white;
+}
+#most{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', Arial, sans-serif ;
+    margin-top: 3%;
+}
+#free{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', Arial, sans-serif ;
+    font-size: xx-large;
+    font: bolder;
+    margin-top: -1%;
+}
+.use{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%; 
+}
+.use1{
+    display: flex;
+    justify-content: center;
+    margin-top: -1%;
+}
+.separateur{
+    background-color: black;
+    border-radius: 20%;
+    width: 70px;
+    height: 3px;
+    border: 1px solid black;
+    margin-left: 50%;
 }
