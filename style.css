@@ -200,3 +200,24 @@ header img {
     border: 1px solid black;
     font-size: smaller;
 }
+.quatre{
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0);
+}
+#paragraphe{
+    color: white;
+    font-size: xxx-large;
+    position: relative;
+    z-index: 20;
+    margin-top: -28%;
+    text-align: center;
+    line-height: 50px;
+}
+#day{
+    color: white;
+    font-style: italic;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
