@@ -313,4 +313,15 @@ header img {
     border: 1px solid black;
     font-size: smaller;
 }
+footer{
+    background-color: silver;
+    height: 15vh;
+}
+#copyright{
+    font-size: xx-small;
+    font-style: italic;
+    margin-left: 12%;
+    padding-top: 1%;
+}
+
 
