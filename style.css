@@ -1,9 +1,4 @@
 /* Mise en page du slider */
-.degrade{
-    background-size: cover;
-    position: absolute;
-    z-index: -10;
-}
 #quotes{
     width: 120px;
     position: absolute;
